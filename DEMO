@@ -1,2 +1,7 @@
 DEMO VIDEO : https://drive.google.com/file/d/1oyXScBI0KQsk3M33JkgHtRG9v4QkJKbT/view?usp=sharing
 
+Step 1: Change the file name of PYTHON_SCRIPT_TO_BE_RUN_IN_TERMINAL as your wish (ex:OPTIM).
+Step 2: Inside the file change the directory that points to the exact binary file (.bin file) of the project.
+Step 3: Run the file in Terminal.
+
+
