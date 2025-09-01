@@ -5,7 +5,7 @@ DEVICE_NAME = "nimble-ble-ota"
 UUID_LEN  = "0000fff1-0000-1000-8000-00805f9b34fb"
 UUID_DATA = "0000fff2-0000-1000-8000-00805f9b34fb"
 
-FIRMWARE_FILE = r"C:\Users\abhis\R2D2_Internship\Wearable\build\A_CODE.bin" //Replace the directory address of the .bin file in full
+FIRMWARE_FILE = r"C:\Users\abhishek\projects_iot\build\A_CODE.bin" #Change the directory that points to the binary file of the Project
 CHUNK_SIZE = 240  # safe for MTU=247
 
 async def main():
@@ -39,3 +39,4 @@ async def main():
         print("Upload complete ✅ ESP32 should reboot")
 
 asyncio.run(main())
+
